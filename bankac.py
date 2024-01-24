@@ -5,9 +5,9 @@ class BankAccount :
         self.account_number = account_number
 
     def deposit(self,amount):
-        print("The amount in your account before deposit is :" , self.balance)
+        print("The amount in your account prior to deposit is :" , self.balance)
         self.balance +=amount
-        print("The amount in your account is :" , self.balance)
+        print("The amount in your account later the deposit is :" , self.balance)
 
     def withdraw(self,amount):
         print("The amount in your account before withdraw is :" , self.balance)
