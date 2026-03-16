@@ -98,6 +98,29 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Virtual environments
+venv/
+env/
+ENV/
+places_env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.exe
+
+# Large files and wheels
+*.whl
+*.zip
+
 # Environments
 .env
 .venv
